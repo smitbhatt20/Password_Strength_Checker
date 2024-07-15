@@ -1,11 +1,12 @@
 import re
 from zxcvbn import zxcvbn
 
-# Simulate a password history
+
 password_history = ["OldP@ssw0rd", "PrevP@ssw0rd1", "AnotherP@ss2"]
 
-# Common passwords blacklist
+
 common_passwords = ["123456", "password", "12345678", "qwerty", "12345"]
+
 
 def calculate_entropy(password):
     import math
